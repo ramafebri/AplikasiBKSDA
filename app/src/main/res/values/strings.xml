@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">BksdaTest</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="dermolo">\"DERMOLO\" Vegetasi Langka di Ujung\nUtara Jawa Tengah</string>
+    <string name="desc_burung">Beberapa jenis burung dilindungi berdasarkan\nPeraturan Mentri Lingkungan Hidup dan\nKehutanan</string>
+    <string name="bksda_n_jawa_tengah">BKSDA\nJAWA TENGAH</string>
+    <string name="b_k_s_d_a">B K S D A</string>
+    <string name="profil">Profil</string>
+    <string name="konservasi">Konservasi</string>
+    <string name="perizinan">Perizinan</string>
+    <string name="informasi">Informasi</string>
+    <string name="media">Media</string>
+    <string name="simaksi">Simaksi</string>
+    <string name="taman">Eco Park</string>
+    <string name="kontak">Kontak</string>
+    <string name="profil_title">Balai Konservasi Daya Alam\nJawa Tengah</string>
+    <string name="profil_desc">Merupakan Unit Pelaksana Teknis ( UPT ) Kementrian Lingkungan Hidup Dan Kehutanan yang bertugas untuk mengelola 33 kawasan konservasi berbentuk cagar alam, suaka margasatwa dan taman wisata di Jawa Tengah serta konservasi tumbuhan dan satwa liar yang berada di dalam maupun di luar kawasan yang memiliki kewajiban untuk menyebarluaskan informasi konservasi kepada masyarakat dalam rangka upaya meningkatkan peranannya dalam bidang pembangunan konservasi sumber daya alam.</string>
+    <string name="pembuatan_film_video_fotokomersial">Pembuatan FILM /\nVideo / FotoKomersial</string>
+    <string name="pendidikan">PENDIDIKAN</string>
+    <string name="penelitian">PENELITIAN</string>
+    <string name="religi">RELIGI</string>
+    <string name="location_desc">Balai Konservasi Sumber Daya Alam Jawa Tengah\nJl. Dr. Suratmo No. 171 Semarang Mon to Fri 09.00 AM to 04.00 PM</string>
+    <string name="contact_us_on">Contact Us on :</string>
+    <string name="mail_desc">bksda_jateng@yahoo.co.id</string>
+    <string name="phone_desc">(024) 7614752</string>
+    <string name="social_media">Social Media :</string>
+    <string name="ig_desc">BKSDA_JATENG</string>
+    <string name="fb_desc">BKSDA Jateng</string>
+    <string name="youtube_desc">BKSDA JATENG</string>
+    <string name="url_desc">ksdajateng.id</string>
+    <string name="home">HOME</string>
+    <string name="area_konservasi">AREA KONSERVASI</string>
+    <string name="taman_wisata_alam">TAMAN WISATA ALAM</string>
+    <string name="kontak_kami">KONTAK KAMI</string>
+    <string name="keluar">KELUAR</string>
+    <string name="pendataan_desc">Pendataan TSL Permen LHK P.106\nDiperpanjang Sampai Dengan 21\nJanuari 2021</string>
+    <string name="visit_link"><![CDATA[VISIT LINK >>>]]></string>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.aplikasibksda.view.home.StartHomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_menuFragment"
+            app:destination="@id/menuFragment"
+            app:launchSingleTop="false"
+            app:popUpTo="@id/homeFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_detailKonservasiFragment"
+            app:destination="@id/detailKonservasiFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.aplikasibksda.view.home.StartMenuFragment"
+        android:label="fragment_menu"
+        tools:layout="@layout/fragment_menu" >
+        <action
+            android:id="@+id/action_menuFragment_to_mainMenuActivity"
+            app:destination="@id/mainMenuActivity" />
+    </fragment>
+
+    <activity
+        android:id="@+id/mainMenuActivity"
+        android:name="com.example.aplikasibksda.view.mainmenu.MainMenuActivity"
+        android:label="activity_main_menu"
+        tools:layout="@layout/activity_main_menu" />
+    <fragment
+        android:id="@+id/detailKonservasiFragment"
+        android:name="com.example.aplikasibksda.view.konservasi.DetailKonservasiFragment"
+        android:label="fragment_detail_konservasi"
+        tools:layout="@layout/fragment_detail_konservasi" />
+</navigation>

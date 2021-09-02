@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".view.informasi.InformasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Text"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:text="@string/informasi" />
+
+        <FrameLayout
+            android:id="@+id/frame_informasi_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_announce1"
+                android:layout_width="275dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_annouce1"
+                android:background="#00000000"
+                />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_public2"
+                android:background="#00000000"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_informasi_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_public1"
+                android:layout_width="275dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_public1"
+                android:background="#00000000"
+                />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="end"
+                android:src="@drawable/btn_annouce2"
+                android:background="#00000000"
+                />
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_publik"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:baselineAligned="false">
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_dermolo" />
+
+                <TextView
+                    style="@style/Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="11sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/dermolo"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="85dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="15dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:baselineAligned="false">
+                <ImageView
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/img_burung" />
+
+                <TextView
+                    style="@style/Text"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="11sp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="@string/desc_burung"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_pengumuman"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:visibility="gone"
+            android:baselineAligned="false">
+            <ImageView
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_pendataab" />
+
+            <TextView
+                style="@style/Text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="11sp"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="@string/pendataan_desc"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

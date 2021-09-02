@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.home.StartHomeFragment"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        style="@style/Text.Title"
+        android:text="@string/b_k_s_d_a"
+        android:layout_marginTop="70dp"/>
+
+    <ImageView
+        android:layout_width="243dp"
+        android:layout_height="251dp"
+        android:src="@drawable/img_bksda_jateng"
+        android:layout_gravity="center"
+        />
+
+    <ImageView
+        android:id="@+id/btn_enter"
+        android:layout_width="305dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/img_btn_masuk"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

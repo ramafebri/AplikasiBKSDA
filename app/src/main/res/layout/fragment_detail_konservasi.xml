@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".view.konservasi.DetailKonservasiFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/imgDetail"
+            android:layout_width="271dp"
+            android:layout_height="160dp"
+            android:src="@drawable/img_grojogan_sewu"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"
+            android:elevation="5dp"
+            android:background="@drawable/rounded_image"
+            />
+        <TextView
+            android:id="@+id/tvDetailTitle"
+            style="@style/Text"
+            android:textAllCaps="true"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            android:text="@string/hello_blank_fragment"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/top_bottom_border_bold"/>
+
+        <FrameLayout
+            android:id="@+id/frame_detail_btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp">
+
+            <ImageButton
+                android:id="@+id/btn_contact1"
+                android:layout_width="275dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_contact1"
+                android:background="#00000000"
+                />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/btn_informasi2"
+                android:background="#00000000"
+                />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/frame_detail_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_informasi1"
+                android:layout_width="275dp"
+                android:layout_height="30dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="center"
+                android:src="@drawable/btn_informasi1"
+                android:background="#00000000"
+                />
+
+            <ImageButton
+                android:layout_width="130dp"
+                android:layout_height="32dp"
+                android:scaleType="fitXY"
+                android:layout_gravity="end"
+                android:src="@drawable/btn_contact2"
+                android:background="#00000000"
+                />
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvDetailDesc"
+            style="@style/Text"
+            android:textSize="11sp"
+            android:textStyle="normal"
+            android:text="@string/hello_blank_fragment"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/border_grey_tv"/>
+
+        <TextView
+            android:id="@+id/tvDetailContact"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:textSize="11sp"
+            android:textStyle="normal"
+            android:layout_marginTop="15dp"
+            android:visibility="gone"
+            android:background="@drawable/border_grey_tv"/>
+
+        <TextView
+            android:id="@+id/tvDetailUrl"
+            style="@style/Text"
+            android:textSize="11sp"
+            android:text="@string/visit_link"
+            android:textAlignment="textEnd"
+            />
+    </LinearLayout>
+</ScrollView>

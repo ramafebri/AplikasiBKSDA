@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context=".view.kontak.KontakFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            style="@style/Text"
+            android:textSize="15sp"
+            android:textAllCaps="true"
+            android:textAlignment="center"
+            android:text="@string/kontak" />
+
+        <FrameLayout
+            android:layout_width="260dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_kotak_1"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="22dp"
+                    android:layout_height="28dp"
+                    android:src="@drawable/ic_location"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="5dp"
+                    />
+
+                <TextView
+                    style="@style/Text"
+                    android:id="@+id/tv_alamat"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/location_desc"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            style="@style/Text"
+            android:textSize="11sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/contact_us_on"
+            />
+
+        <FrameLayout
+            android:layout_width="260dp"
+            android:layout_height="96dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_kotak_2"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/btn_mail"
+                    android:layout_width="20dp"
+                    android:layout_height="12dp"
+                    android:src="@drawable/ic_mail"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_mail"
+                    style="@style/Text"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/mail_desc"/>
+
+                <ImageView
+                    android:id="@+id/btn_phone"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_phone"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tv_phone"
+                    style="@style/Text"
+                    android:textAlignment="center"
+                    android:textSize="11sp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:text="@string/phone_desc"/>
+            </LinearLayout>
+        </FrameLayout>
+
+        <TextView
+            style="@style/Text"
+            android:textSize="11sp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:text="@string/social_media"
+            />
+
+        <FrameLayout
+            android:layout_width="260dp"
+            android:layout_height="148dp"
+            android:layout_gravity="center">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/img_kotak_3"
+                android:scaleType="fitXY"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingTop="10dp">
+
+                <LinearLayout
+                    android:id="@+id/btn_ig"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_ig" />
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:textSize="11sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/ig_desc"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_fb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_fb" />
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:textSize="11sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/fb_desc"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_youtube"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_youtube" />
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:textSize="11sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/youtube_desc"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_web"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@drawable/ic_browser" />
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:textSize="11sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/url_desc"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</ScrollView>
