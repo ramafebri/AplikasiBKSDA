@@ -19,7 +19,7 @@
 
         <FrameLayout
             android:layout_width="260dp"
-            android:layout_height="100dp"
+            android:layout_height="110dp"
             android:layout_gravity="center"
             android:layout_marginTop="30dp">
 
@@ -39,7 +39,7 @@
                     android:layout_height="28dp"
                     android:src="@drawable/ic_location"
                     android:layout_gravity="center"
-                    android:layout_marginTop="5dp"
+                    android:layout_marginTop="10dp"
                     />
 
                 <TextView
@@ -125,7 +125,7 @@
 
         <FrameLayout
             android:layout_width="260dp"
-            android:layout_height="148dp"
+            android:layout_height="160dp"
             android:layout_gravity="center">
 
             <ImageView
@@ -148,8 +148,8 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal" >
                     <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
                         android:src="@drawable/ic_ig" />
 
                     <TextView
@@ -168,8 +168,8 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="10dp">
                     <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
                         android:src="@drawable/ic_fb" />
 
                     <TextView
@@ -188,8 +188,8 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="10dp">
                     <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
                         android:src="@drawable/ic_youtube" />
 
                     <TextView
@@ -208,8 +208,8 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="10dp">
                     <ImageView
-                        android:layout_width="22dp"
-                        android:layout_height="22dp"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
                         android:src="@drawable/ic_browser" />
 
                     <TextView
@@ -219,6 +219,26 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="20dp"
                         android:text="@string/url_desc"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btn_twitter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+                    <ImageView
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
+                        android:src="@drawable/ic_twitter" />
+
+                    <TextView
+                        style="@style/Text"
+                        android:layout_gravity="center_vertical|center_horizontal"
+                        android:textSize="11sp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:text="@string/twitter"/>
                 </LinearLayout>
             </LinearLayout>
         </FrameLayout>

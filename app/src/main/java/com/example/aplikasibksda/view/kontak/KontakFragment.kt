@@ -66,6 +66,11 @@ class KontakFragment : Fragment() {
                     val urlString = "https://ksdajateng.id/"
                     openBrowser(urlString)
                 }
+
+                btnTwitter.setOnClickListener{
+                    val urlString = "https://twitter.com/bksdajawatengah?lang=en"
+                    openBrowser(urlString)
+                }
             }
         }
     }

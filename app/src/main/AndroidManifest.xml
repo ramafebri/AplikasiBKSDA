@@ -17,13 +17,15 @@
         android:theme="@style/Theme.AplikasiBksda">
         <activity
             android:name=".view.brownmenu.BrownMenuActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".view.ExitActivity"
             android:exported="true" />
         <activity
             android:name=".view.mainmenu.MainMenuActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:parentActivityName=".MainActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">

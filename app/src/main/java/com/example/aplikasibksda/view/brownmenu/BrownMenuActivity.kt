@@ -23,7 +23,9 @@ class BrownMenuActivity : AppCompatActivity() {
             }
 
             tvBrownHome.setOnClickListener{
-                startActivity(Intent(root.context, MainActivity::class.java))
+                val intent = Intent(root.context, MainActivity::class.java)
+                intent.putExtra(MainActivity.fragmentName, MainActivity.startMenuFragment)
+                startActivity(intent)
                 finish()
             }
 
@@ -68,6 +70,8 @@ class BrownMenuActivity : AppCompatActivity() {
     private fun gotoMainMenuActivity(selectedTabName: String){
         val intent = Intent(this, MainMenuActivity::class.java)
         intent.putExtra(MainMenuActivity.selectedTabName, selectedTabName)
+        intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK
         startActivity(intent)
+        finish()
     }
 }
